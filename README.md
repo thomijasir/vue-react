@@ -2,7 +2,7 @@
 
 > Integrated React Component in Vue Project
 
-![alt text](http://url/to/img.png)
+![React Vue](https://github.com/thomijasir/vue-react/blob/master/static/reactvue.png)
 
 ## Build Setup
 
