@@ -1,0 +1,84 @@
+{
+	"root": true,
+	"parserOptions": {
+		"parser": "babel-eslint",
+		"ecmaVersion": 6,
+		"sourceType": "module"
+	},
+	"env": {
+		"browser": true,
+		"jest": true,
+		"es6": true,
+		"jquery": true
+	},
+	"plugins": [
+		"jest"
+	],
+	"extends": [
+		"airbnb",
+		"plugin:vue/base"
+	],
+	"settings": {
+		"import/resolver": {
+			"webpack": {
+				"config": "build/webpack.base.conf.js"
+			}
+		}
+	},
+	"rules": {
+		"quotes": [
+			1,
+			"single"
+		],
+		"indent": [
+			2,
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"semi": [
+			1,
+			"never"
+		],
+		"no-tabs": 0,
+		"arrow-parens": [
+			1,
+			"as-needed"
+		],
+		"linebreak-style": 0,
+		"max-len": [
+			2,
+			{
+				"code": 100
+			}
+		],
+		"import/extensions": [
+			"error",
+			"always",
+			{
+				"js": "never",
+				"vue": "never"
+			}
+		],
+		"no-param-reassign": [
+			"error",
+			{
+				"props": true,
+				"ignorePropertyModificationsFor": [
+					"state",
+					"acc",
+					"e"
+				]
+			}
+		],
+		"import/no-extraneous-dependencies": [
+			"error",
+			{
+				"optionalDependencies": [
+					"test/unit/index.js"
+				]
+			}
+		]
+	}
+}

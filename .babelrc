@@ -1,0 +1,35 @@
+{
+	"presets": [
+		[
+			"env",
+			{
+				"modules": false,
+				"targets": {
+					"browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+				}
+			}
+		],
+		"stage-2",
+		"react"
+	],
+	"plugins": [
+		"transform-vue-jsx",
+		"transform-runtime",
+		"vuera/babel",
+		"transform-class-properties",
+		"transform-decorators-legacy"
+	],
+	"env": {
+		"test": {
+			"presets": ["env", "stage-2", "react"],
+			"plugins": [
+				"transform-vue-jsx",
+				"transform-es2015-modules-commonjs",
+				"dynamic-import-node",
+				"vuera/babel",
+				"transform-class-properties",
+				"transform-decorators-legacy"
+			]
+		}
+	}
+}
