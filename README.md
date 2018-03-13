@@ -2,9 +2,7 @@
 
 Integrated React Component in Vue Project, now you can run your react component to vue project
 
-<div style="text-align:center" markdown="1">
 ![React Vue](https://github.com/thomijasir/vue-react/blob/master/static/VueReact.png)
-</div>
 
 ## Build Setup
 
