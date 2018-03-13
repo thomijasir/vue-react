@@ -3,7 +3,7 @@
 Integrated React Component in Vue Project, now you can run your react component to vue project
 
 <p align="center">
-	<img src="https://github.com/thomijasir/vue-react/blob/master/static/VueReact.png" width="400" height="300"/>
+	<img src="https://github.com/thomijasir/vue-react/blob/master/static/VueReact.png" width="400" height="350"/>
 </p>
 
 ## Build Setup
